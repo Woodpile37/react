@@ -1,0 +1,64 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - css-loader > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: css-loader > lodash
+    - babel-preset-minify > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-preset-minify > lodash
+    - firefox-profile > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: firefox-profile > lodash
+    - babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-minify > babel-plugin-minify-dead-code-elimination >
+          lodash
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-dev-server > http-proxy-middleware > lodash
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > @babel/traverse > lodash
+    - firefox-profile > archiver > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: firefox-profile > archiver > lodash
+    - firefox-profile > async > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: firefox-profile > async > lodash
+    - rollup-plugin-babel > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          rollup-plugin-babel > @babel/helper-module-imports > @babel/types >
+          lodash
+    - firefox-profile > archiver > archiver-utils > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: firefox-profile > archiver > archiver-utils > lodash
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > @babel/traverse > @babel/generator > lodash
+    - firefox-profile > archiver > zip-stream > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: firefox-profile > archiver > zip-stream > lodash
+    - babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2023-08-20T06:20:32.574Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-eslint > @babel/traverse > @babel/generator > @babel/types >
+          lodash
